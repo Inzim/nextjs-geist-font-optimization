@@ -1,0 +1,36 @@
+name: e_filing_app
+description: E-Filing Document Management System
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  file_picker: ^6.1.1
+  flutter_quill: ^9.3.19
+  data_table_2: ^2.5.12
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+  intl: ^0.18.1
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
